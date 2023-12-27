@@ -1,0 +1,536 @@
+*{
+    margin: 0;
+    padding: 0;     
+}
+ul{
+    list-style-type: none;
+
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    position: relative;
+}
+
+
+.header{
+    width: 100%;
+    background-color: #212121;
+    height: 53px;
+    position: fixed;
+
+    z-index: 3;
+}
+
+.menu{
+    list-style-type: none;
+    padding: 10px 70px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-list{
+    border-right: 2px dotted black;
+}
+
+.menu-list:last-child{
+    border: 0px;
+}
+
+.menu-list a{
+    padding-right: 45px;
+    display: block;
+    line-height: 31px;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+}
+
+.subhead{
+    position: relative;
+    height: 84px;
+    padding-top: 53px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    z-index: 2;
+}
+
+.logo{
+    margin-top: 17px;
+}
+
+.logo p{
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.call{
+    margin-top: 22px;
+    font-size: 12px;
+    font-weight: 300;  
+    text-align: right;
+}
+
+.call .number{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    margin-top: 19px;
+}
+
+.header-btn{
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    width: 172px;
+    height: 46px;
+    border: 0px;
+    box-shadow: inset 0px -3px 0px rgba(128, 128, 128,0.3);
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 46px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.promo{
+    position: relative;
+    background: url(/img/background/header-bg.jpg) center center/cover no-repeat;
+    z-index: 1;
+    height: 800px;
+    margin-top: -84px;
+    padding-top: 154px;
+    color: white;
+    text-align: center;
+}
+
+.promo-cont{
+    padding: 0px 50px;
+}
+
+.promo h1{
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+.promo h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-top: 30px;
+}
+
+.promo p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.promo .btn{
+    margin-top: 131px;
+    width: 259px;
+    height: 63px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 63px;   
+}
+
+main .container{
+    padding: 0px 33px;
+    text-align: center;
+}
+
+
+
+.reason{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #222222;
+    margin-top: 35px;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 116px;
+    height: 116px;
+    background-color: #1EACC7;
+    border-radius: 60px;
+}
+
+.blue-text{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #1EACC7;
+}
+
+.reason-list{
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 55px;
+}
+
+.reason-list li{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #202020;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-btn{
+    width: 115px;
+    height: 27px;
+    text-transform: uppercase;
+    background-color: black;
+    border: 0px;
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 11px;
+    margin-top: 20px;
+}
+
+
+
+.mobile-apps{
+    height: 865px;
+    background: url(/img/background/pattern_under_car.jpg) center center/cover no-repeat;
+}
+
+.mobile-apps .main-btn{
+    margin-top: 46px;
+}
+
+.mobile-apps h2{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #222222;
+    margin-top: 35px;
+}
+
+.mobile-apps .desc-app{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #222222;
+    margin-top: 7px;
+}
+
+.select-serv{
+    margin-top: 11px;
+}
+
+.select-serv .block{
+    width: 320px;
+    height: 280px;
+    margin: 19px 30px 0;
+    position: relative;
+}
+
+.block .block-five, .block-four, .block-one, .block-tree, .block-six, .block-two{
+    width: 320px;
+    height: 280px;
+    box-sizing: border-box;
+    padding-top: 85px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.block-one {
+    background: url(/img/background/mobile-screen1.jpg) center center/cover no-repeat;
+}
+.block-two {
+    background: url(/img/background/mobile-screen2.jpg) center center/cover no-repeat;
+}
+.block-tree {
+    background: url(/img/background/mobile-screen3.jpg) center center/cover no-repeat;
+}
+.block-four {
+    background: url(/img/background/mobile-screen4.jpg) center center/cover no-repeat;
+}
+.block-five {
+    background: url(/img/background/mobile-screen5.jpg) center center/cover no-repeat;
+}
+.block-six {
+    background: url(/img/background/mobile-screen6.jpg) center center/cover no-repeat;
+}
+
+.block .reason-circle{
+    background-color: black;
+    margin: 0px auto;
+    width: 29px;
+    height: 29px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 217px;
+    left: 160px;
+}
+
+
+
+.chouse-car{
+    height: 900px;
+    background: url(/img/background/pattern_and_blue.jpg) center center/cover no-repeat;
+}
+
+.chouse-car .main-btn{
+    background-color: white;
+    color: #070716;
+    margin-top: 56px;
+}
+
+.good-chouse{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.order-car {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    color: white;
+    margin-top: 5px;
+}
+
+.car-fon{
+    margin-top: 47px;
+}
+
+.car-every-day {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #222222;
+}
+
+
+
+.condition-requirment .main-btn{
+    margin-top: 66px;
+}
+
+.condition {
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: 700;
+    color: #222222;
+    margin-top: 30px;
+}
+
+.condition-requirment h3{
+    text-transform: uppercase;
+}
+
+.condition-work h3{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #1CA8C3;
+}
+
+.have-car span, .not-car span{
+    text-transform: lowercase;
+}
+
+.requir h3{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FF5656;
+}
+
+.condition-work, .requir{
+    text-align: left;
+}
+
+.condition-requirment ul{
+    margin-top: 20px;
+}
+
+.condition-work{
+    margin: 37px;
+}
+.requir{
+    margin: 61px 0 87px;
+}
+
+.condition-requirment li{
+    padding-left: 50px;
+    position: relative;
+}
+
+.condition-requirment li::before{
+    position: absolute;
+    top: 3px;
+    left: 20px;
+}
+
+.condition-work li::before{
+    content: url(/img/icon/check_blue.png);
+}
+
+.requir li::before{
+    content: url(/img/icon/check_red.png);
+}
+
+.condition-requirment li{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #222222;
+}
+
+.day-pay{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #1CA8C3;
+}
+
+
+
+.world{
+    background: #080816 center center/cover;
+    height: 720px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.world-map{
+    display: inline-block;
+    background: url(/img/background/world.jpg) center center/cover no-repeat;
+    width: 1440px;
+    height: 716px;
+}
+
+.world-btn{
+    width: 75px;
+    height: 25px;
+    background-color: white;
+    border: 0;
+    color: #070716;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 11px;   
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.around-world{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 26px;
+}
+
+.your-city{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    color: white;
+}
+
+.see-city{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 68px;
+    color: #1FBAD6;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 465px;
+}
+
+
+
+footer .social-media{
+    margin-top: 52px;
+    margin-left: 25px;
+}
+
+footer .circle{
+    width: 35px;
+    height: 35px;
+    background-color: #070716;
+    border-radius: 18px;
+    margin-right: 9px;
+}
+
+footer .container{
+    text-align: center;
+}
+
+footer .line{
+    margin: 15px auto 0;
+    width: 250px;
+    height: 4px;
+    background-color: #1FBAD6;
+}
+
+footer .useful li{
+    margin-top: 30px;
+    margin-right: 21.5px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #070716;
+    text-transform: uppercase;
+}
+
+footer .more-info li{
+    margin-right: 9.5px;
+    margin-top: 17px;
+    font-size: 11px;
+    font-weight: 300;
+    color: #999999;
+    text-transform: uppercase;
+}
+
+footer .lang{
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 400;
+    color: #1FBAD6;
+    text-transform: uppercase;
+}
+
+footer .down-apps{
+    margin-right: 10px;
+    margin-top: 52px;
+}
+
+footer .down-apps a{
+    margin-left: 5px;
+}
